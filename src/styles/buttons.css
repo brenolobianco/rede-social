@@ -1,0 +1,204 @@
+.header-menu a {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight:var(--font-weight-3);
+  font-size: var(--font-text-2);
+  line-height: 16px;
+  color: var(--color-grey-4);
+  background: var(--color-grey-1);
+  width: 78px;
+  height: 42px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.header-menu a:hover {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-grey-2);
+  border-radius: 4px;
+  color: var(--color-white-fixed);
+}
+.form-post button {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 12px;
+  gap: 10px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: var(--font-weight-2);
+  font-size: var(--font-text-2);
+  line-height: var(--font-line-height-4);
+  color: var(--color-white-fixed);
+  width: 69px;
+  height: 38px;
+  background: var(--color-primary-0);
+  border: 2px solid var(--color-primary-0);
+  border-radius: var(--color-primary-0);
+  margin-left: 645px;
+}
+.btn-modal {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 12px;
+  gap: 10px;
+  width: 92px;
+  height: 38px;
+  background: var(--color-grey-0);
+ 
+  border-radius: 4px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: var(--font-weight-2);
+  font-size: var(--font-text-2);
+  line-height: var(--font-line-height-4);
+  color: var(--color-white-fixed);
+  margin-top: 15px;
+}
+.sugested-folowers button {
+  width: 55px;
+  height: 25px;
+  margin-left: 155px;
+  background: var(--color-white-fixed);
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: var(--font-weight-2);
+  font-size: var(--font-text-2);
+  line-height: var(--font-line-height-4);
+  color: var(--color-grey-1);
+}
+.sugested-folowers-followed {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: var(--font-weight-2);
+  font-size: var(--font-text-2);
+  line-height: var(--font-line-height-4);
+  color: var(--color-white-fixed);
+}
+
+
+
+#btn-login {
+  width: 413px;
+  height: 38px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: var(--font-weight-2);
+  font-size: var(--font-text-2);
+  line-height: var(--font-line-height-4);
+  color: var(--color-white-fixed);
+  background: var(--color-primary-0);
+  border: 2px solid var(--color-primary-0) b;
+  border-radius: 4px;
+}
+
+#btnCadastrar {
+  width: 413px;
+  height: 38px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: var(--font-weight-2);
+  font-size: var(--font-text-2);
+  line-height: var(--font-line-height-4);
+  color: var(--color-white-fixed);
+  background: var(--color-primary-0);
+  border: 2px solid var(--color-primary-0) b;
+  border-radius: 4px;
+}
+.btn-Irlogin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 413px;
+  height: 40px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: var(--font-weight-2);
+  font-size: var(--font-text-2);
+  line-height: var(--font-line-height-4);
+  background: var(--color-white-fixed);
+  color: var(--color-grey-1);
+  border: 1px solid var(--color-grey-1);
+}
+
+#modal-close {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  width: 76px;
+  height: 38px;
+  left: 720px;
+top: 20px;
+  background: var(--color-white-fixed);
+  border: 2px solid var(--color-white-fixed) F;
+  border-radius: 4px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: var(--font-weight-2);
+  font-size: var(--font-text-2);
+  line-height: var(--font-line-height-4);
+  color: var(--color-grey-1);
+}
+.btn-ircadastro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 413px;
+  height: 40px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: var(--font-weight-2);
+  font-size: var(--font-text-2);
+  line-height: var(--font-line-height-4);
+  background: var(--color-white-fixed);
+  color: var(--color-grey-1);
+  border: 1px solid var(--color-grey-1);
+}
+.toast button {
+  position: absolute;
+  width: 76px;
+  height: 38px;
+  left: 380px;
+  top: 139px;
+  background: var(--color-white-fixed);
+  border: 2px solid var(--color-white-fixed);
+  border-radius: 4px;
+  font-family: var(--font-family);
+font-style: normal;
+font-weight: var(--font-weight-2);
+font-size:var(--font-text-2);
+line-height: 17px;
+color: var(--color-grey-1);
+
+}
+
+@media (max-width: 480px) {
+
+.form-cadastro a {
+  width: 335px;
+}
+.form-login a {
+  width: 337px;
+}
+#btnCadastrar {
+  width: 335px;
+}
+
+#btn-login {
+  width: 336px;
+  height: 38px;
+}
+ }

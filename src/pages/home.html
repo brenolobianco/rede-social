@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/input.css" />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/modal.css" />
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="../styles/buttons.css" />
+    <link rel="stylesheet" href="../styles/modal.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet" />
+
+    <title>Rede Social</title>
+  </head>
+  <body>
+    <header class="header-menu">
+      <div class="logo">
+        <img src="../assets/TechPosters.png" alt="" />
+      </div>
+      <ul>
+        <li><a href="/index.html">Sair</a></li>
+      </ul>
+    </header>
+    <main id="post-container-modal">
+      <div class="post-container">
+        <div class="post-scroll">
+          <div class="posts">
+            <div class="post-profile-create">
+              <img src="" alt="" />
+              <div class="post-profile-description">
+                <h2>Breno Lobianco</h2>
+                <h3>Front end dev</h3>
+              </div>
+            </div>
+            <form class="form-post">
+              <input
+                class="input-title"
+                type="text"
+                placeholder="Digitar titulo do post"
+              />
+              <input
+                class="input-text"
+                type="text"
+                placeholder="Digitar texto do post"
+              />
+              <button id="btn-postar">Postar</button>
+            </form>
+            <ul class="post-list">
+              <h2>Posts</h2>
+            </ul>
+          </div>
+        </div>
+        <aside class="sugested-folowers">
+          <h2>Sugestoes para voce seguir</h2>
+          <ul class="list-profile">
+            <li class="sugested-profile">
+              <img src="" />
+              <div class="sugested-description">
+                <h4>Samuel Leao</h4>
+                <p>front end</p>
+              </div>
+              <button>Seguir</button>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </main>
+    <div class="modal-wrapper-post" id="modal-post">
+      <div class="modal-header">
+       
+      </div>
+    </div>
+   
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="module" src="../scripts/models/render.js"></script>
+    <script type="module" src="../scripts/models/api.js"></script>
+  
+  </body>
+</html>

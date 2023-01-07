@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="../styles/input.css" />
+  <link rel="stylesheet" href="../styles/reset.css" />
+  <link rel="stylesheet" href="../styles/modal.css" />
+  <link rel="stylesheet" href="../styles/global.css" />
+  <link rel="stylesheet" href="../styles/buttons.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header-menu">
+    <div class="logo">
+      <img src="../assets/TechPosters.png" alt="" />
+    </div>
+    <ul>
+      <li><a href="">Cadastrar</a></li>
+      <li><a href="/index.html">Login</a></li>
+    </ul>
+  </header>
+  <main class="form-container">
+    <form class="form-cadastro">
+      <div class="form-header">
+        <h2>Cadastro</h2>
+
+      </div>
+      <input id="nomeUsuario" type="text" placeholder="Seu nome" />
+      <input id="emailCadastro" type="text" placeholder="Seu e-mail" />
+      <input id="passwordCadastro" type="text" placeholder="Sua senha" />
+
+      <input id="trabalhoUsuario" type="text" placeholder="Qual o seu trabalho" />
+      <input id="fotoUsuario" type="text" placeholder="Url Imagem perfil" />
+
+      <button id="btnCadastrar">Registrar</button>
+      <h3>Ja possui login?</h3>
+      <a class="btn-Irlogin" href="/index.html">Ir para a pagina de login</a>
+    </form>
+  </main>
+  <script type="module" src="../scripts/models/cadastro.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</body>
+
+</html>
